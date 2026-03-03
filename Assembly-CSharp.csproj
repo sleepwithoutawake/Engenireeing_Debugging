@@ -48,7 +48,15 @@
     <Analyzer Include="E:\Unity\Editors\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\Models\TimeModel.cs" />
+    <Compile Include="Assets\scripts\Config\SolarSystemConfig.cs" />
+    <Compile Include="Assets\scripts\Bootstrap\AppBootstrapper.cs" />
+    <Compile Include="Assets\scripts\Services\PlanetEphemerisService.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\scripts\Controllers\PlanetSystemController.cs" />
+    <Compile Include="Assets\scripts\Services\PlanetData.cs" />
+    <Compile Include="Assets\scripts\Services\IPlanetEphemerisService.cs" />
+    <Compile Include="Assets\scripts\Views\PlanetView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
