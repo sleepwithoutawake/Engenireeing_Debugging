@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\Models\TimeModel.cs" />
+    <Compile Include="Assets\scripts\Controllers\TimeController.cs" />
     <Compile Include="Assets\scripts\Config\SolarSystemConfig.cs" />
     <Compile Include="Assets\scripts\Bootstrap\AppBootstrapper.cs" />
     <Compile Include="Assets\scripts\Services\PlanetEphemerisService.cs" />
